@@ -3,7 +3,7 @@
     content: "";
     display: block;
 }
-
+/**Header Style**/
 .header {
     background:white;
     border-bottom: 5px solid #cccccc;
@@ -24,13 +24,14 @@ nav {float: right;
     margin-top: 60px;
 }
 
-a {color: #777777;
+#navlinks {color: #777777;
     text-decoration: none;
 }
 
+/**Content Style**/
 .background {border-bottom: 7px solid #4aaaa5;
     background-image: url(../images/background.png);
-    padding-top: 2px;
+    padding: 2px;
 }
 
 .content {
@@ -46,15 +47,11 @@ h2{
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #4aaaa5;
     margin-top: 5px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dddddd;
 }
 
-img {
-    width: 30%;
-    float: left;
-    margin-right: 15px;
-    margin-bottom: 5px;
-}
-
+/**Footer Style**/
 footer {
     color: white;
     font-size: 8px;
@@ -63,18 +60,50 @@ footer {
     padding-top: 18px;
 }
 
+/**About Me Style**/
+.headshot {
+    width: 30%;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+
+/**Portfolio Style**/
+.portfolio {
+    position: relative;
+}
 .portfolioimg{
     padding: 0 16px 25px 0px;
     position: relative;
-    text-align: center;
-    color: white;
+    width: 200px;
+    height: 175px;
 }
 
 .portfoliotxt {
     position: absolute;
+    bottom: 20px;
+    z-index: 2;
     background: #4aaaa5;
     color: white;
-    padding: 5px;
-    left: 50%;
-    bottom: 8px;
+    width: 200px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.img2{
+    bottom: 205px;
+    left: 230px;
+}
+
+.img3 {
+    bottom: 205px;
+}
+
+.img4 {
+    bottom: 410px;
+    left: 230px;
+}
+
+.img5 {
+    bottom: 410px;
 }

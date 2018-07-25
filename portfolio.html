@@ -11,23 +11,35 @@
        
         <section class="header clearfix">
         <h1>Kimberly Clary</h1>
-        <nav> <a href="#">About</a> <a href="#">Portfolio</a> <a href="#">Contact</a>
+        <nav> <a id="navlinks" href="#">About</a> <a id="navlinks" href="#">Portfolio</a> <a id="navlinks" href="#">Contact</a>
         </section>
 
-        <div class="background">
-            <section class="content clearfix">
+        <section class="background">
+            <div class="content">
                 <h2>Portfolio</h2>
-                <hr>
-                <div class="portfolioimg clearfix">
-                   <img src="assets/images/Photo1.jpg" alt="Photo1"/>
-                   <div class="portfoliotxt">Hangman</div>
-                   <img class="portfolioimg" src="assets/images/Photo2.jpg" alt="Photo2"/>
-                   <img class="portfolioimg" src="assets/images/Photo3.jpg" alt="Photo3"/>
-                   <img class="portfolioimg" src="assets/images/Photo4.jpg" alt="Photo4"/>
-                   <img class="portfolioimg" src="assets/images/Photo5.jpg" alt="Photo5"/>
+                    <!--Use relative positions for photo placement. Absolute position and z-index for text overlay. Look at examples from class-->
+                <div class="portfolio">
+                    <img class="portfolioimg" src="assets/images/Photo1.jpg" alt="Photo1"/>
+                    <p class="portfoliotxt">Hangman</p>
                 </div>
-            </section>
-        </div>
+                <div class="portfolio">
+                   <img class="portfolioimg img2" src="assets/images/Photo2.jpg" alt="Photo2"/>
+                   <p class="portfoliotxt">Hangman</p>
+                </div> 
+                <div class="portfolio">
+                   <img class="portfolioimg img3" src="assets/images/Photo3.jpg" alt="Photo3"/>
+                   <p class="portfoliotxt">Hangman</p>
+                </div>
+                <div class="portfolio"> 
+                   <img class="portfolioimg img4" src="assets/images/Photo4.jpg" alt="Photo4"/>
+                   <p class="portfoliotxt">Hangman</p>
+                </div>
+                <div class="portfolio">
+                   <img class="portfolioimg img5" src="assets/images/Photo5.jpg" alt="Photo5"/>
+                   <p class="portfoliotxt">Hangman</p>
+                </div> 
+            </div>
+        </section>
 
         <footer>
             Copyright©
