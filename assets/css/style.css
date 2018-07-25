@@ -46,7 +46,7 @@ nav {float: right;
 h2{
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #4aaaa5;
-    margin-top: 5px;
+    margin: 5px 0 15px 5px;
     padding-bottom: 10px;
     border-bottom: 1px solid #dddddd;
 }
@@ -66,6 +66,41 @@ footer {
     float: left;
     margin-right: 15px;
     margin-bottom: 5px;
+}
+
+/**Contact Style**/
+form {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+label {
+    margin-top: 40px;
+}
+
+input {
+    width: 100%;
+    border: 1px solid #dddddd;
+    margin-left: 2px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+textarea {
+    width: 100%;
+    height: 125px;
+    border: 1px solid #dddddd;
+    margin-left: 2px;
+   
+}
+
+#submit {
+    background-color: #4aaaa5;
+    color: white;
+    width: 75px;
+    height: 30px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-left: 2px;
 }
 
 /**Portfolio Style**/
@@ -90,7 +125,7 @@ footer {
     text-align: center;
 }
 
-.img2{
+/**.img2{
     bottom: 205px;
     left: 230px;
 }
@@ -106,4 +141,4 @@ footer {
 
 .img5 {
     bottom: 410px;
-}
+}**/
