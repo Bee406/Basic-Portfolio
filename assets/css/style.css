@@ -3,6 +3,7 @@
     content: "";
     display: block;
 }
+
 /**Header Style**/
 .header {
     width: auto;
@@ -41,8 +42,8 @@ a:hover {color: #4aaaa5;}
 .background {
     background-image: url(../images/purple.png);
     width:100%;
-    padding-top: 30px;
-    padding-bottom: 100%;
+    padding-top: 1%;
+    padding-bottom: 20%;
 }
 
 .content {
@@ -73,14 +74,18 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    color: white;
-    font-size: 8px;
     text-align: center;
     background-color: #666666;
     border-top: 7px solid #4aaaa5;
-    padding-top: 18px;
-    padding-bottom: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
     z-index: 3;
+}
+
+.footertxt{
+    color: white;
+    font-size: 8px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 /**About Me Style**/
@@ -112,7 +117,7 @@ textarea {
     width: 100%;
     height: 125px;
     border: 1px solid #dddddd;
-    margin-left: 2px;
+    margin-left: .5px;
    
 }
 
