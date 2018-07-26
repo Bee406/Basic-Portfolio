@@ -6,17 +6,16 @@
 /**Header Style**/
 .header {
     background:white;
-    border-bottom: 5px solid #cccccc;
     padding: 35px 200px 0 200px;
 }
 
 h1 {
     float: left;
     color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
     background: #4aaaa5;
     padding: 30px;
     margin-bottom: 0px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 nav {float: right; 
@@ -30,9 +29,11 @@ nav {float: right;
 }
 
 /**Content Style**/
-.background {border-bottom: 7px solid #4aaaa5;
+.background {
+    border-top:2px solid #cccccc;
+    border-bottom: 7px solid #4aaaa5;
     background-image: url(../images/background.png);
-    padding: 2px;
+    padding-bottom: 30px;
 }
 
 .content {
@@ -44,6 +45,7 @@ nav {float: right;
     background-color: white;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
+    line-height: 30px;
 }
 
 h2{
@@ -51,9 +53,12 @@ h2{
     color: #4aaaa5;
     margin: 5px 0 25px 5px;
     padding-bottom: 20px;
-    border-bottom: 1px solid #dddddd;
+    border-bottom: 3px solid #dddddd;
 }
 
+p {
+    margin-left:5px;
+}
 /**Footer Style**/
 footer {
     color: white;
@@ -62,6 +67,7 @@ footer {
     text-align: center;
     background-color: #666666;
     padding-top: 18px;
+    padding-bottom: 5px;
 }
 
 /**About Me Style**/
@@ -120,11 +126,12 @@ textarea {
 }
 .portfoliotxt {
     position: absolute;
-    top: 68%;
+    top: 75%;
     z-index: 2;
     background: #4aaaa5;
     color: white;
     width: 200px;
+    margin: 0;
     line-height: 30px;
     text-align: center;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
